@@ -5,11 +5,11 @@ namespace App\Http\Controllers\frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CourseController extends Controller
+class CoursesController extends Controller
 {
-    function course(){
+    function courses(){
 
-        return view('frontend.course');
+        return view('frontend.courses');
 
     }
 

@@ -1,7 +1,7 @@
-/* 
+/*
 ***************************************
 Template Name: Eduor || Online Education Learning HTML Template
-Author: themefaxbd 
+Author: themefaxbd
 Author Email: themefaxbd@gmail.com
 Version: 1.0
 Description: Eduor is a Online Education HTML Template. It is designed for online education learning you are a you can discover many new awesome features in this template. Best for e-Learning, online courses, Online academy, Online Institute, Online School, College, University, and Online Instructor Websites. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones and small mobile devices.
@@ -9,7 +9,7 @@ Description: Eduor is a Online Education HTML Template. It is designed for onlin
 
 CSS INDEX
 ===================================
-01. GLOBAL CSS 
+01. GLOBAL CSS
 02. HOME PAGE (index.html)
 03. ABOUT US PAGE
 04. BLOG DETAILS PAGE
@@ -612,6 +612,11 @@ button {
 .tf__droap_menu li a:hover::after {
     width: 5px;
     background: var(--colorPrimary);
+}
+
+.navbar-color {
+    background: #ffffff;
+    padding-right: 20px;
 }
 
 /*-----MENU END-----*/

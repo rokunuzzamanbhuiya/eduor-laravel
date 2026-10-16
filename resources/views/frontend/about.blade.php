@@ -1,11 +1,15 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>About || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
+                BREADCRUMB START
+            ==================================-->
     <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
         <div class="container">
             <div class="row">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                BREADCRUMB END
+            ==================================-->
 
 
     <!--=================================
-            ABOUT US PAGE START
-        ==================================-->
+                ABOUT US PAGE START
+            ==================================-->
     <section class="tf__about_us_page mt_195 xs_mt_100">
         <div class="tf__about_2_area">
             <div class="container">
@@ -509,8 +513,8 @@
 
     </section>
     <!--=================================
-            ABOUT US PAGE END
-        ==================================-->
+                ABOUT US PAGE END
+            ==================================-->
 
 
 @endsection

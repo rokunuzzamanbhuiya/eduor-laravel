@@ -4,17 +4,17 @@
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
+                    BREADCRUMB START
+                ==================================-->
     <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="tf__breadcrumb_text">
-                        <h2>courses details</h2>
+                        <h2>course details</h2>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">courses details</a></li>
+                            <li><a href="#">course details</a></li>
                         </ul>
                     </div>
                 </div>
@@ -22,13 +22,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            COURSES DETAILS START
-        ==================================-->
+                    COURSES DETAILS START
+                ==================================-->
     <section class="tf__courses_details mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
@@ -317,8 +317,8 @@
         </div>
     </section>
     <!--=================================
-            COURSES DETAILS END
-        ==================================-->
+                    COURSES DETAILS END
+                ==================================-->
 
 
 @endsection

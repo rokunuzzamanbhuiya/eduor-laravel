@@ -1,11 +1,15 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Home || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-                                    BANNER START
-                                ==================================-->
+                                        BANNER START
+                                    ==================================-->
     <section class="tf__banner" style="background: url({{ asset('frontend/images/banner_bg.jpg') }});">
         <div class="container">
             <div class="row">
@@ -30,13 +34,13 @@
         </div>
     </section>
     <!--=================================
-                                    BANNER END
-                                ==================================-->
+                                        BANNER END
+                                    ==================================-->
 
 
     <!--=================================
-                                    CATEGORIES START
-                                ==================================-->
+                                        CATEGORIES START
+                                    ==================================-->
     <section class="tf__categories mt_95">
         <div class="container">
             <div class="row">
@@ -118,13 +122,13 @@
         </div>
     </section>
     <!--=================================
-                                    CATEGORIES END
-                                ==================================-->
+                                        CATEGORIES END
+                                    ==================================-->
 
 
     <!--=================================
-                                    ABOUT START
-                                ==================================-->
+                                        ABOUT START
+                                    ==================================-->
     <section class="tf__about mt_250 xs_mt_195" style="background: url({{ asset('frontend/images/about_bg.png') }});">
         <div class="container">
             <div class="tf__about_top wow fadeInUp" data-wow-duration="1.5s"
@@ -183,13 +187,13 @@
         </div>
     </section>
     <!--=================================
-                                    ABOUT END
-                                ==================================-->
+                                        ABOUT END
+                                    ==================================-->
 
 
     <!--=================================
-                                    EVENT START
-                                ==================================-->
+                                        EVENT START
+                                    ==================================-->
     <section class="tf__event mt_95">
         <div class="container">
             <div class="row">
@@ -285,13 +289,13 @@
         </div>
     </section>
     <!--=================================
-                                    EVENT END
-                                ==================================-->
+                                        EVENT END
+                                    ==================================-->
 
 
     <!--=================================
-                                    FAQ START
-                                ==================================-->
+                                        FAQ START
+                                    ==================================-->
     <section class="tf__faq mt_100 pt_95 xs_pt_100 pb_100"
         style="background: url({{ asset('frontend/images/faq_bg.png') }});">
         <div class="container">
@@ -385,13 +389,13 @@
         </div>
     </section>
     <!--=================================
-                                    FAQ END
-                                ==================================-->
+                                        FAQ END
+                                    ==================================-->
 
 
     <!--=================================
-                                    WORK START
-                                ==================================-->
+                                        WORK START
+                                    ==================================-->
     <section class="tf__work pt_95" style="background: url(images/work_bg.jpg);">
         <div class="container">
             <div class="row">
@@ -455,13 +459,13 @@
         </div>
     </section>
     <!--=================================
-                                    WORK END
-                                ==================================-->
+                                        WORK END
+                                    ==================================-->
 
 
     <!--=================================
-                                    TESTIMONIAL START
-                                ==================================-->
+                                        TESTIMONIAL START
+                                    ==================================-->
     <section class="tf___testimonial mt_100 pt_95 pb_100"
         style="background: url({{ asset('frontend/images/testimonial_bg.jpg') }});">
         <div class="container">
@@ -541,13 +545,13 @@
         </div>
     </section>
     <!--=================================
-                                    TESTIMONIAL END
-                                ==================================-->
+                                        TESTIMONIAL END
+                                    ==================================-->
 
 
     <!--=================================
-                                    ACTIVITIES START
-                                ==================================-->
+                                        ACTIVITIES START
+                                    ==================================-->
     <section class="tf__activities mt_100 xs_mt_95">
         <div class="container">
             <div class="row">
@@ -601,13 +605,13 @@
         </div>
     </section>
     <!--=================================
-                                    ACTIVITIES END
-                                ==================================-->
+                                        ACTIVITIES END
+                                    ==================================-->
 
 
     <!--=================================
-                                    VIDEO START
-                                ==================================-->
+                                        VIDEO START
+                                    ==================================-->
     <section class="tf__video mt_100" style="background: url({{ asset('frontend/images/video_bg.jpg') }});">
         <div class="tf__video_overlay pt_100 pb_100">
             <div class="container">
@@ -629,13 +633,13 @@
         </div>
     </section>
     <!--=================================
-                                    VIDEO END
-                                ==================================-->
+                                        VIDEO END
+                                    ==================================-->
 
 
     <!--=================================
-                                    BLOG START
-                                ==================================-->
+                                        BLOG START
+                                    ==================================-->
     <section class="tf__blog mt_95">
         <div class="container">
             <div class="row">
@@ -711,8 +715,8 @@
         </div>
     </section>
     <!--=================================
-                                    BLOG END
-                                ==================================-->
+                                        BLOG END
+                                    ==================================-->
 
 
 @endsection
