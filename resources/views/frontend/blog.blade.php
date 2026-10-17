@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Blog || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            BLOG PAGE START
-        ==================================-->
+                    BLOG PAGE START
+                ==================================-->
     <section class="tf__blog_page mt_190 xs_mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -43,7 +47,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_1.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_1.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category light_blue" href="#">design</a>
@@ -59,7 +63,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_2.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_2.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category orange" href="#">wordpress</a>
@@ -75,7 +79,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_3.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_3.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category green" href="#">english</a>
@@ -91,7 +95,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_4.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_4.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category red" href="#">UI/UX</a>
@@ -107,7 +111,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_5.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_5.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category light_blue" href="#">drawing</a>
@@ -123,7 +127,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_6.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_6.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category orange" href="#">wordpress</a>
@@ -163,8 +167,8 @@
         </div>
     </section>
     <!--=================================
-            BLOG PAGE END
-        ==================================-->
+                    BLOG PAGE END
+                ==================================-->
 
 
 @endsection

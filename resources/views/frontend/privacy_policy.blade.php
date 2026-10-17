@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Privacy Policy || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            TERMS AND CONDITION START
-        ==================================-->
+                    TERMS AND CONDITION START
+                ==================================-->
     <section class="tf__pricacy_policy mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
@@ -115,8 +119,8 @@
         </div>
     </section>
     <!--=================================
-            TERMS AND CONDITION END
-        ==================================-->
+                    TERMS AND CONDITION END
+                ==================================-->
 
 
 @endsection

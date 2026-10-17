@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Courses || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            COURSES PAGE START
-        ==================================-->
+                    COURSES PAGE START
+                ==================================-->
     <section class="tf__courses_page mt_190 xs_mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -43,7 +47,8 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_1.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_1.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories orange" href="#">drowing</a>
                             <span>$50.00</span>
                         </div>
@@ -72,7 +77,8 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_2.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_2.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories green" href="#">english</a>
                             <span>$65.00</span>
                         </div>
@@ -101,7 +107,8 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_3.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_3.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories red" href="#">design</a>
                             <span>$99.00</span>
                         </div>
@@ -130,7 +137,8 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_4.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_4.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories blue" href="#">UI/UX</a>
                             <span>$75.00</span>
                         </div>
@@ -159,7 +167,8 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_5.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_5.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories orange" href="#">drowing</a>
                             <span>$50.00</span>
                         </div>
@@ -188,7 +197,8 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_6.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_6.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories green" href="#">english</a>
                             <span>$65.00</span>
                         </div>
@@ -241,8 +251,8 @@
         </div>
     </section>
     <!--=================================
-            COURSES PAGE END
-        ==================================-->
+                    COURSES PAGE END
+                ==================================-->
 
 
 @endsection

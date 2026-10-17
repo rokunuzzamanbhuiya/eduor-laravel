@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Events || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            EVENT PAGE START
-        ==================================-->
+                    EVENT PAGE START
+                ==================================-->
     <section class="tf__event_page mt_190 xs_mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -43,7 +47,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_1.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_1.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category blue" href="#">school</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -63,7 +67,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_2.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_2.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category orange" href="#">Drawing</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -83,7 +87,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_3.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_3.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category green" href="#">sports</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -103,7 +107,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_4.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_4.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category green" href="#">sports</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -123,7 +127,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_5.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_5.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category red" href="#">writing</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -143,7 +147,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_6.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_6.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category blue" href="#">school</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -187,8 +191,8 @@
         </div>
     </section>
     <!--=================================
-            EVENT PAGE END
-        ==================================-->
+                    EVENT PAGE END
+                ==================================-->
 
 
 @endsection

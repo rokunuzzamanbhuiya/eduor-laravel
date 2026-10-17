@@ -1,19 +1,23 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Error 404 || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                        BREADCRUMB START
+                    ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="tf__breadcrumb_text">
                         <h2>error/404</h2>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="{{ route('home') }}">Home</a></li>
                             <li><a href="#">error</a></li>
                         </ul>
                     </div>
@@ -22,32 +26,32 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                        BREADCRUMB END
+                    ==================================-->
 
 
     <!--=================================
-            ERROR PAGE START
-        ==================================-->
+                        ERROR PAGE START
+                    ==================================-->
     <section class="tf__error_page mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__error_text">
                         <div class="img">
-                            <img src="images/error_img.png" alt="error" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/error_img.png') }}" alt="error" class="img-fluid w-100">
                         </div>
                         <h4>Page not found</h4>
                         <p>Sorry This 404 Page Not found take a look at our most popular</p>
-                        <a class="common_btn" href="#">go to home</a>
+                        <a class="common_btn" href="{{ route('home') }}">go to home</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--=================================
-            ERROR PAGE END
-        ==================================-->
+                        ERROR PAGE END
+                    ==================================-->
 
 
 @endsection

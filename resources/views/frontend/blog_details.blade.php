@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Blog Details || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,20 +26,21 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            BLOG DETAILS PAGE START
-        ==================================-->
+                    BLOG DETAILS PAGE START
+                ==================================-->
     <section class="tf__blog_details_page mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8">
                     <div class="tf__blog_details_area">
                         <div class="tf__blog_details_img wow fadeInUp" data-wow-duration="1.5s">
-                            <img src="images/blog_details_img.jpg" alt="blog details" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_details_img.jpg') }}" alt="blog details"
+                                class="img-fluid w-100">
                         </div>
                         <div class="tf__blog_details_text wow fadeInUp" data-wow-duration="1.5s">
                             <ul class="date d-flex flex-wrap">
@@ -61,7 +66,8 @@
                                 <h5>Devlopment</h5>
                             </div>
                             <div class="tf__blog_details_center_img">
-                                <img src="images/blog_details_center_img.jpg" alt="blog details" class="img-fluid w-100">
+                                <img src="{{ asset('frontend/images/blog_details_center_img.jpg') }}" alt="blog details"
+                                    class="img-fluid w-100">
                             </div>
                             <p>Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit
                                 eiusmod tempor incididunt ut abore et dolore magna aliqua lonm andhn is a lon
@@ -76,7 +82,8 @@
                             <h3>Comments (3)</h3>
                             <div class="tf__single_comment">
                                 <div class="tf__single_comment_img">
-                                    <img src="images/client_img_1.png" alt="client" class="img-fluid w-100">
+                                    <img src="{{ asset('frontend/images/client_img_1.png') }}" alt="client"
+                                        class="img-fluid w-100">
                                 </div>
                                 <div class="tf__single_comment_text">
                                     <h4>Rubel Merat</h4>
@@ -87,7 +94,8 @@
                             </div>
                             <div class="tf__single_comment reply">
                                 <div class="tf__single_comment_img">
-                                    <img src="images/client_img_2.png" alt="client" class="img-fluid w-100">
+                                    <img src="{{ asset('frontend/images/client_img_2.png') }}" alt="client"
+                                        class="img-fluid w-100">
                                 </div>
                                 <div class="tf__single_comment_text">
                                     <h4>Korat Berata</h4>
@@ -98,7 +106,8 @@
                             </div>
                             <div class="tf__single_comment">
                                 <div class="tf__single_comment_img">
-                                    <img src="images/client_img_3.png" alt="client" class="img-fluid w-100">
+                                    <img src="{{ asset('frontend/images/client_img_3.png') }}" alt="client"
+                                        class="img-fluid w-100">
                                 </div>
                                 <div class="tf__single_comment_text">
                                     <h4>Norat Berata</h4>
@@ -148,7 +157,8 @@
 
                                 <li>
                                     <div class="img">
-                                        <img src="images/sidebar_blog_1.jpg" alt="blog" class="img-fluid w-100">
+                                        <img src="{{ asset('frontend/images/sidebar_blog_1.jpg') }}" alt="blog"
+                                            class="img-fluid w-100">
                                     </div>
                                     <div class="text">
                                         <p><i class="far fa-calendar-alt"></i> 31 jan 2023</p>
@@ -158,7 +168,8 @@
 
                                 <li>
                                     <div class="img">
-                                        <img src="images/sidebar_blog_2.jpg" alt="blog" class="img-fluid w-100">
+                                        <img src="{{ asset('frontend/images/sidebar_blog_2.jpg') }}" alt="blog"
+                                            class="img-fluid w-100">
                                     </div>
                                     <div class="text">
                                         <p><i class="far fa-calendar-alt"></i> 31 jan 2023</p>
@@ -168,7 +179,8 @@
 
                                 <li>
                                     <div class="img">
-                                        <img src="images/sidebar_blog_3.jpg" alt="blog" class="img-fluid w-100">
+                                        <img src="{{ asset('frontend/images/sidebar_blog_3.jpg') }}" alt="blog"
+                                            class="img-fluid w-100">
                                     </div>
                                     <div class="text">
                                         <p><i class="far fa-calendar-alt"></i> 31 jan 2023</p>
@@ -203,7 +215,7 @@
                             </ul>
                         </div>
                         <div class="tf__sidebar_apply">
-                            <img src="images/sidebar_img.jpg" alt="apply" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/sidebar_img.jpg') }}" alt="apply" class="img-fluid w-100">
                             <a href="#">apply now</a>
                         </div>
                     </div>
@@ -212,8 +224,8 @@
         </div>
     </section>
     <!--=================================
-            BLOG DETAILS PAGE END
-        ==================================-->
+                    BLOG DETAILS PAGE END
+                ==================================-->
 
 
 @endsection

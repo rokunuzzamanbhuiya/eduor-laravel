@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Sign Up || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            SIGN UP START
-        ==================================-->
+                    SIGN UP START
+                ==================================-->
     <section class="tf__registration mt_195 xs_mt_95" style="background: url(images/login_bg.html);">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -83,8 +87,8 @@
         </div>
     </section>
     <!--=================================
-            SIGN UP END
-        ==================================-->
+                    SIGN UP END
+                ==================================-->
 
 
 @endsection

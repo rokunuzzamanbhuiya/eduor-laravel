@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="tf__header_text">
-                        <a href="index_2.html">
+                        <a href="{{ route('home-2') }}">
                             <img src="{{ asset('frontend/images/logo2.png') }}" alt="Eduor" class="img-fluid w-100">
                         </a>
                         <ul>
@@ -173,7 +173,7 @@
                             <a class="nav-link" href="{{ route('contact') }}">contact</a>
                         </li>
                     </ul>
-                    <a class="common_btn_2 ms-auto" href="#">learn more</a>
+                    <a class="common_btn_2 ms-auto" href="{{ route('courses') }}">learn more</a>
                 </div>
             </div>
         </div>

@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Team || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            TEAM PAGE START
-        ==================================-->
+                    TEAM PAGE START
+                ==================================-->
     <section class="tf__team_page mt_190 xs_mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -43,7 +47,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_1.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_1.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -60,7 +64,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_2.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_2.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -77,7 +81,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_3.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_3.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -94,7 +98,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_4.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_4.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -111,7 +115,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_5.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_5.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -128,7 +132,7 @@
                 <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_6.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_6.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -169,8 +173,8 @@
         </div>
     </section>
     <!--=================================
-            TEAM PAGE END
-        ==================================-->
+                    TEAM PAGE END
+                ==================================-->
 
 
 @endsection

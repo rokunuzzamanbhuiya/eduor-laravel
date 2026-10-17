@@ -14,6 +14,9 @@ use App\Http\Controllers\frontend\FaqController;
 use App\Http\Controllers\frontend\PrivacyPolicyController;
 use App\Http\Controllers\frontend\TermsConditionController;
 
+
+use App\Http\Controllers\frontend\PagesController;
+
 use App\Http\Controllers\ErrorController;
 
 
@@ -38,6 +41,8 @@ Route::get('/sign_in', [SignupController::class, 'signin'])->name('sign_in');
 Route::get('/faq', [FaqController::class, 'faq'])->name('faq');
 Route::get('/privacy_policy', [PrivacyPolicyController::class, 'privacy_policy'])->name('privacy_policy');
 Route::get('/terms_condition', [TermsConditionController::class, 'terms_condition'])->name('terms_condition');
+
+Route::get('/pages', [PagesController::class, 'pages'])->name('pages');
 
 Route::get('/blog_details', [BlogController::class, 'blog_details'])->name('blog_details');
 Route::get('/course_details', [CoursesController::class, 'course_details'])->name('course_details');

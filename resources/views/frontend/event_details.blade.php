@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>Event Details || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,19 +26,20 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=================================
-            EVENT DETAILS PAGE START
-        ==================================-->
+                    EVENT DETAILS PAGE START
+                ==================================-->
     <section class="tf__event_details mt_195 xs_mt_100">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="tf__event_details_img wow fadeInUp" data-wow-duration="1.5s">
-                        <img src="images/event_details_img.jpg" alt="event details" class="img-fluid w-100">
+                        <img src="{{ asset('frontend/images/event_details_img.jpg') }}" alt="event details"
+                            class="img-fluid w-100">
                     </div>
                     <div class="tf__event_details_text mt_35 wow fadeInUp" data-wow-duration="1.5s">
                         <span class="categories">WEB DESIGN</span>
@@ -60,7 +65,8 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
                                 <div class="tf__event_det_center_img">
-                                    <img src="images/event_det_center_img.jpg" alt="event" class="img-fluid w-100">
+                                    <img src="{{ asset('frontend/images/event_det_center_img.jpg') }}" alt="event"
+                                        class="img-fluid w-100">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-duration="1.5s">
@@ -96,8 +102,8 @@
         </div>
     </section>
     <!--=================================
-            EVENT DETAILS PAGE END
-        ==================================-->
+                    EVENT DETAILS PAGE END
+                ==================================-->
 
 
 @endsection

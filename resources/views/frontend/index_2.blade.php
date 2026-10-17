@@ -8,8 +8,8 @@
 
 
     <!--=================================
-                        BANNER 2 START
-                    ==================================-->
+                                BANNER 2 START
+                            ==================================-->
     <section class="tf__banner_2" style="background: url({{ asset('frontend/images/banner_bg2.jpg') }});">
         <div class="container">
             <div class="row">
@@ -34,13 +34,13 @@
         </div>
     </section>
     <!--=================================
-                        BANNER 2 END
-                    ==================================-->
+                                BANNER 2 END
+                            ==================================-->
 
 
     <!--=================================
-                        CATEGORIS 2 START
-                    ==================================-->
+                                CATEGORIS 2 START
+                            ==================================-->
     <div class="tf__popular_categories_2">
         <div class="container">
             <div class="tf__popular_categories_2_area pt_95">
@@ -99,19 +99,19 @@
         </div>
     </div>
     <!--=================================
-                        CATEGORIS 2 END
-                    ==================================-->
+                                CATEGORIS 2 END
+                            ==================================-->
 
 
     <!--=================================
-                        ABOUT 2 START
-                    ==================================-->
+                                ABOUT 2 START
+                            ==================================-->
     <section class="tf__home_2_about pt_100 pb_100" style="background: url(images/about_2_bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
                     <div class="tf__home_2_about_img">
-                        <img src="images/about_2_img_3.jpg" alt="about us" class="img-fluid w-100">
+                        <img src="{{ asset('frontend/images/about_2_img_3.jpg') }}" alt="about us" class="img-fluid w-100">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 wow fadeInRight" data-wow-duration="1.5s">
@@ -167,13 +167,13 @@
         </div>
     </section>
     <!--=================================
-                        ABOUT 2 END
-                    ==================================-->
+                                ABOUT 2 END
+                            ==================================-->
 
 
     <!--=================================
-                        POPULAR SERVICES START
-                    ==================================-->
+                                POPULAR SERVICES START
+                            ==================================-->
     <section class="tf__popular_services_2 mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -237,14 +237,15 @@
         </div>
     </section>
     <!--=================================
-                        POPULAR SERVICES END
-                    ==================================-->
+                                POPULAR SERVICES END
+                            ==================================-->
 
 
     <!--=================================
-                        UPCOMING EVENT START
-                    ==================================-->
-    <section class="tf__upcoming_event mt_100 pt_95 pb_100" style="background: url(images/upcoming_event_bg.jpg);">
+                                UPCOMING EVENT START
+                            ==================================-->
+    <section class="tf__upcoming_event mt_100 pt_95 pb_100"
+        style="background: url({{ asset('frontend/images/upcoming_event_bg.jpg') }});">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
                 <div class="col-xl-7 col-xxl-6 col-md-8 col-lg-6 m-auto">
@@ -258,7 +259,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/upcoming_event_img_1.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/upcoming_event_img_1.jpg') }}" alt="event"
+                                class="img-fluid w-100">
                             <a class="event_category blue" href="#">school</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -278,7 +280,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/upcoming_event_img_2.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/upcoming_event_img_2.jpg') }}" alt="event"
+                                class="img-fluid w-100">
                             <a class="event_category orange" href="#">Drawing</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -298,7 +301,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/upcoming_event_img_3.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/upcoming_event_img_3.jpg') }}" alt="event"
+                                class="img-fluid w-100">
                             <a class="event_category green" href="#">sports</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -318,7 +322,7 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_event">
                         <div class="tf__single_event_img">
-                            <img src="images/event_img_4.jpg" alt="event" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/event_img_4.jpg') }}" alt="event" class="img-fluid w-100">
                             <a class="event_category green" href="#">sports</a>
                         </div>
                         <div class="tf__single_event_text">
@@ -339,18 +343,20 @@
         </div>
     </section>
     <!--=================================
-                        UPCOMING EVENT END
-                    ==================================-->
+                                UPCOMING EVENT END
+                            ==================================-->
 
 
     <!--=================================
-                        TESTIMONIAL 2 START
-                    ==================================-->
-    <section class="tf__testimonial_2 mt_250 pb_45" style="background: url(images/testimonial_bg.jpg);">
+                                TESTIMONIAL 2 START
+                            ==================================-->
+    <section class="tf__testimonial_2 mt_250 pb_45"
+        style="background: url({{ asset('frontend/images/testimonial_bg.jpg') }});">
 
         <div class="tf__counter_2 wow fadeInUp" data-wow-duration="1.5s">
             <div class="container">
-                <div class="tf__counter_area mt_95" style="background: url(images/counter_bg2.jpg);">
+                <div class="tf__counter_area mt_95"
+                    style="background: url({{ asset('frontend/images/counter_bg2.jpg') }});">
                     <div class="tf__counter2_overlay">
                         <ul class=" d-flex flex-wrap">
                             <li class="tf__single_counter">
@@ -395,7 +401,8 @@
                                 quia repellat in est earum nam optio, ut possimus ad dolores iste molestiae repellendus
                                 veritatis perferendis iure consequuntur.</p>
                             <div class="img">
-                                <img src="images/client_img_1.png" alt="client" class="img-f;uid w-100">
+                                <img src="{{ asset('frontend/images/client_img_1.png') }}" alt="client"
+                                    class="img-fluid w-100">
                             </div>
                             <h3 class="title">Porata Masat</h3>
                             <p class="designation">Devlopment</p>
@@ -410,7 +417,8 @@
                                 quia repellat in est earum nam optio, ut possimus ad dolores iste molestiae repellendus
                                 veritatis perferendis iure consequuntur.</p>
                             <div class="img">
-                                <img src="images/client_img_2.png" alt="client" class="img-f;uid w-100">
+                                <img src="{{ asset('frontend/images/client_img_2.png') }}" alt="client"
+                                    class="img-fluid w-100">
                             </div>
                             <h3 class="title">Barast Metas</h3>
                             <p class="designation">Devlopment</p>
@@ -425,7 +433,8 @@
                                 quia repellat in est earum nam optio, ut possimus ad dolores iste molestiae repellendus
                                 veritatis perferendis iure consequuntur.</p>
                             <div class="img">
-                                <img src="images/client_img_3.png" alt="client" class="img-f;uid w-100">
+                                <img src="{{ asset('frontend/images/client_img_3.png') }}" alt="client"
+                                    class="img-fluid w-100">
                             </div>
                             <h3 class="title">Marata Barsa</h3>
                             <p class="designation">Devlopment</p>
@@ -440,7 +449,8 @@
                                 quia repellat in est earum nam optio, ut possimus ad dolores iste molestiae repellendus
                                 veritatis perferendis iure consequuntur.</p>
                             <div class="img">
-                                <img src="images/client_img_2.png" alt="client" class="img-f;uid w-100">
+                                <img src="{{ asset('frontend/images/client_img_2.png') }}" alt="client"
+                                    class="img-fluid w-100">
                             </div>
                             <h3 class="title">Barast Metas</h3>
                             <p class="designation">Devlopment</p>
@@ -451,13 +461,13 @@
         </div>
     </section>
     <!--=================================
-                        TESTIMONIAL 2 END
-                    ==================================-->
+                                TESTIMONIAL 2 END
+                            ==================================-->
 
 
     <!--=================================
-                        COURSES 2 START
-                    ==================================-->
+                                COURSES 2 START
+                            ==================================-->
     <section class="tf__courses_2 mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -472,7 +482,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_1.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_1.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories orange" href="#">drowing</a>
                             <span>$50.00</span>
                         </div>
@@ -501,7 +512,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_2.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_2.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories green" href="#">english</a>
                             <span>$65.00</span>
                         </div>
@@ -530,7 +542,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_3.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_3.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories red" href="#">design</a>
                             <span>$99.00</span>
                         </div>
@@ -559,7 +572,8 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_courses">
                         <div class="tf__single_courses_img">
-                            <img src="images/courses_img_4.jpg" alt="courses" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/courses_img_4.jpg') }}" alt="courses"
+                                class="img-fluid w-100">
                             <a class="categories blue" href="#">UI/UX</a>
                             <span>$75.00</span>
                         </div>
@@ -589,13 +603,13 @@
         </div>
     </section>
     <!--=================================
-                        COURSES 2 END
-                    ==================================-->
+                                COURSES 2 END
+                            ==================================-->
 
 
     <!--=================================
-                        TEAM 2 START
-                    ==================================-->
+                                TEAM 2 START
+                            ==================================-->
     <section class="tf__team_2 mt_100 pt_95 pb_100">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -610,7 +624,7 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_1.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_1.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -627,7 +641,7 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_2.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_2.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -644,7 +658,7 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_3.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_3.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -661,7 +675,7 @@
                 <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s">
                     <div class="tf__single_team">
                         <div class="tf__single_team_img">
-                            <img src="images/team_4.jpg" alt="team" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/team_4.jpg') }}" alt="team" class="img-fluid w-100">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -679,13 +693,13 @@
         </div>
     </section>
     <!--=================================
-                        TEAM 2 END
-                    ==================================-->
+                                TEAM 2 END
+                            ==================================-->
 
 
     <!--=================================
-                        BLOG 2 START
-                    ==================================-->
+                                BLOG 2 START
+                            ==================================-->
     <section class="tf__blog_2 mt_95">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="1.5s">
@@ -700,7 +714,7 @@
                 <div class="col-xl-5 col-lg-5 wow fadeInLeft" data-wow-duration="1.5s">
                     <div class="tf__single_blog">
                         <a class="tf__single_blog_img" href="blog_details.html">
-                            <img src="images/blog_1.jpg" alt="blog" class="img-fluid w-100">
+                            <img src="{{ asset('frontend/images/blog_1.jpg') }}" alt="blog" class="img-fluid w-100">
                         </a>
                         <div class="tf__single_blog_text">
                             <a class="category light_blue" href="#">design</a>
@@ -719,7 +733,7 @@
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="tf__single_blog_2">
                                 <a class="tf__single_blog_2_img" href="blog_details.html">
-                                    <img src="images/blog_2.jpg" alt="blog" class="img-fluid w-100">
+                                    <img src="{{ asset('frontend/images/blog_2.jpg') }}" alt="blog" class="img-fluid w-100">
                                 </a>
                                 <div class="tf__single_blog_text_2">
                                     <a class="category" href="#">wordpress</a>
@@ -735,7 +749,7 @@
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="tf__single_blog_2">
                                 <a class="tf__single_blog_2_img" href="blog_details.html">
-                                    <img src="images/blog_3.jpg" alt="blog" class="img-fluid w-100">
+                                    <img src="{{ asset('frontend/images/blog_3.jpg') }}" alt="blog" class="img-fluid w-100">
                                 </a>
                                 <div class="tf__single_blog_text_2">
                                     <a class="category green" href="#">Graphic</a>
@@ -754,8 +768,8 @@
         </div>
     </section>
     <!--=================================
-                        BLOG 2 END
-                    ==================================-->
+                                BLOG 2 END
+                            ==================================-->
 
 
 @endsection

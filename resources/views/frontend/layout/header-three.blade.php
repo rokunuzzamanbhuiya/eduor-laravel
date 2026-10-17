@@ -73,7 +73,7 @@
         ==================================-->
     <nav class="navbar navbar-expand-lg main_menu main_menu_3">
         <div class="container">
-            <a class="navbar-brand" href="index_3.html">
+            <a class="navbar-brand" href="{{ route('home-3') }}">
                 <img src="{{ asset('frontend/images/logo3.png') }}" alt="Eduor" class="img-fluid w-100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

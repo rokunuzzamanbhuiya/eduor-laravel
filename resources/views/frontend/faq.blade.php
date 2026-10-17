@@ -1,12 +1,16 @@
 @extends('frontend.layout.frontend-master')
 
+@section('title')
+    <title>FAQs || Online Education Learning Laravel Template</title>
+@endsection
+
 @section('body')
 
 
     <!--=================================
-            BREADCRUMB START
-        ==================================-->
-    <section class="tf__breadcrumb" style="background: url(images/breadcrumb_bg_1.jpg);">
+                    BREADCRUMB START
+                ==================================-->
+    <section class="tf__breadcrumb" style="background: url({{ asset('frontend/images/breadcrumb_bg_1.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -22,13 +26,13 @@
         </div>
     </section>
     <!--=================================
-            BREADCRUMB END
-        ==================================-->
+                    BREADCRUMB END
+                ==================================-->
 
 
     <!--=========================
-            FAQ PAGE START
-        ==========================-->
+                    FAQ PAGE START
+                ==========================-->
     <section class="tf__faq tf__faq_page pt_190 xs_pt_95">
         <div class="container">
             <div class="row">
@@ -194,8 +198,8 @@
         </div>
     </section>
     <!--=========================
-            FAQ PAGE END
-        ==========================-->
+                    FAQ PAGE END
+                ==========================-->
 
 
 @endsection
